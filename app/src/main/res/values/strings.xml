@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">ePages Product Scanner</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="prod_settings">Product Settings</string>
+    <string name="cam_settings">Camera Settings</string>
+    <string name="gen_settings">General Settings</string>
+    <string name="newProductVisibility">Set New Product Visible</string>
+    <string name="fetchImageFromWeb">Fetch Product Image From Web</string>
+    <string name="newProductVisibilitySum">When set to yes, newly created product is available in Store-Front.</string>
+    <string name="fetchImageFromWebSum">Product images are downloaded from various data source from web. You might want to review images and their usage rights.</string>
+    <string name="showConfirmation">Confirmation Required</string>
+    <string name="useAutoFocus">Use Auto Focus</string>
+    <string name="useFlash">Use Camera Flash</string>
 </resources>

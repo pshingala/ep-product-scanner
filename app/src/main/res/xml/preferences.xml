@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+    <PreferenceCategory
+        android:key="prod_settings"
+        android:title="@string/prod_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="fetchImageFromWeb"
+            android:title="@string/fetchImageFromWeb"
+            android:summary="@string/fetchImageFromWebSum"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="newProductVisibility"
+            android:title="@string/newProductVisibility"
+            android:summary="@string/newProductVisibilitySum"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="cam_settings"
+        android:title="@string/cam_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="useAutoFocus"
+            android:title="@string/useAutoFocus" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="useFlash"
+            android:title="@string/useFlash" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="gen_settings"
+        android:title="@string/gen_settings">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="showConfirmation"
+            android:title="@string/showConfirmation" />
+    </PreferenceCategory>
+</PreferenceScreen>
